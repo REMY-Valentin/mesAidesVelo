@@ -4,9 +4,17 @@
 	export let montant;
 	export let href;
 	export let relNoFollow = false;
+	
+	var display = true;
+	if(href == "?velo=mécanique simple" || href == "?velo=pliant" || href=="?velo=cargo") {
+		display = false;
+	}else {
+		display = true;
+	}
 </script>
-
+{#if display}
 {#if montant.nodeValue !== 0}
+
 	<a tabindex="0" data-sveltekit-noscroll {href} rel={relNoFollow ? 'nofollow' : null}>
 		<div
 			role="row"
@@ -38,4 +46,5 @@
 			<span class="text-sm text-gray-500">aide non <br class="sm:hidden" />disponible</span>
 		</div>
 	</div>
+	{/if}
 {/if}

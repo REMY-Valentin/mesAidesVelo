@@ -1027,6 +1027,12 @@
 		cursor: pointer;
 		line-height: 1;
 	}
+	.autocomplete-list-item.bg-s4-green {
+		color: #fff;
+	}
+	.autocomplete-list-item:hover {
+		color: #fff;
+	}
 
 	.autocomplete-list-item.confirmed {
 		font-weight: bold;
