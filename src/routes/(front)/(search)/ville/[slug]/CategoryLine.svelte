@@ -4,9 +4,9 @@
 	export let montant;
 	export let href;
 	export let relNoFollow = false;
-	
+	console.log(href)
 	var display = true;
-	if(href == "?velo=mécanique simple" || href == "?velo=pliant" || href=="?velo=cargo") {
+	if(href == "?velo=mécanique simple" || href == "?velo=pliant" || href=="?velo=cargo" || href=="?velo=motorisation" || href=="?velo=pliant électrique") {
 		display = false;
 	}else {
 		display = true;
