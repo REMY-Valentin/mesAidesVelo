@@ -230,6 +230,8 @@
 		{/if}
 
 		{#if infos.barometreFub}
+	
+		{#if infos.barometreFub.note == "A" || infos.barometreFub.note == "B" || infos.barometreFub.note == "C"}
 			<h2>
 				Une ville «&nbsp;{infos.barometreFub.label}&nbsp;» au vélo d’après le baromètre de la FUB
 			</h2>
@@ -263,6 +265,7 @@
 					Ce classement mesure la part de pistes cyclables sécurisées pour relier les différentes mairies
 					de la métropole.
 				</p>
+			{/if}
 			{/if}
 		{/if}
 	</div>
