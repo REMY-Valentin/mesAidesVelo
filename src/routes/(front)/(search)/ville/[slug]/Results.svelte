@@ -78,6 +78,7 @@
 <div class="mt-8" />
 <p class="mb-3 text-gray-600">Vous pouvez bénéficier des aides suivantes :</p>
 <div role="table" class="flex flex-col-reverse bg-white border-t rounded-t sm:text-lg">
+	<!-- {@debug displayedAides} -->
 	{#each displayedAides.reverse() as { montant, href, label, emoji, relNoFollow } (label)}
 		<div animate:flip={{ duration: 600, easing: quintOut }}>
 			<CategoryLine {montant} {href} {relNoFollow}
@@ -87,9 +88,9 @@
 	{/each}
 </div>
 {#if inFrance}
-	<div class="border-l-4 border-green-200 pl-4 py-4 ml-4">
+	<div class="border-l-4 border-dark-900 pl-4 py-4 ml-4">
 		<div
-			class="inline-block relative -left-8 bg-white border-4 border-green-200 w-8 h-8 rounded-full font-bold text-green-300 text-center leading-6"
+			class="inline-block relative -left-8 bg-white border-4 border-dark-900 w-8 h-8 rounded-full font-bold text-dark-900 text-center leading-6"
 		>
 			€
 		</div>
