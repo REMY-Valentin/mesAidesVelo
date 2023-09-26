@@ -117,22 +117,12 @@
 				</thead>
 				<tbody>
 					<tr>
-						<td>Mécanique simple</td>
-						<td>150 €</td>
-						<td>0 €</td>
-					</tr>
-					<tr>
 						<td>Vélo électrique</td>
 						<td>400 €</td>
 						<td>300 €</td>
 					</tr>
 					<tr>
 						<td>Vélo cargo</td>
-						<td>2 000 €</td>
-						<td>1 000 €</td>
-					</tr>
-					<tr>
-						<td>Vélo pliant</td>
 						<td>2 000 €</td>
 						<td>1 000 €</td>
 					</tr>
