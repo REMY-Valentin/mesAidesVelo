@@ -59,7 +59,7 @@
 
 <svelte:window on:click={() => (enableTracking = true)} />
 
-{#if isEmbeded}
+<!-- {#if isEmbeded}
 	<div class="embeded-too-small text-xl text-center items-center justify-center h-[100vh]">
 		<p>
 			Retrouvez toutes les aides à l’achat d’un vélo sur le site<br />
@@ -71,7 +71,7 @@
 			>
 		</p>
 	</div>
-{/if}
+{/if} -->
 
 <div class="app px-3 sm:px-8 {!isEmbeded ? 'h-screen' : ''} flex flex-col" bind:this={pageElement}>
 	<header
